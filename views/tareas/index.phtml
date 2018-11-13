@@ -32,10 +32,10 @@
 					<?php
 
 					if ($tarea["tareas"]["status"]==1) { ?>
-						<a href="<?php echo APP_URL. "tareas/cambiarEstado/".$tarea["tareas"]["id"]."/off"; ?>" class="btn btn-success">Cerrar</a>
+						<a href="<?php echo APP_URL. "tareas/cambiarEstado/".$tarea["tareas"]["id"]."/off"; ?>" class="btn btn-success">Deshabilitar</a>
 
 					<?php }elseif ($tarea["tareas"]["status"]==0) { ?>
-						<a href="<?php echo APP_URL. "tareas/cambiarEstado/".$tarea["tareas"]["id"]."/on"; ?>" class="btn btn-success">Abrir</a>
+						<a href="<?php echo APP_URL. "tareas/cambiarEstado/".$tarea["tareas"]["id"]."/on"; ?>" class="btn btn-success">Habilitar</a>
 					<?php } ?>
 					</center></td>
 				</tr>
